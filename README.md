@@ -8,11 +8,11 @@ A comprehensive guide to common operators used in programming languages like Jav
 
 | Operator | Name | Example | Description |
 |----------|------|---------|-------------|
-| `+` | Plus / Addition | `a + b > 10` | Adds two values |
-| `-` | Minus / Subtraction | `a - b < 0` | Subtracts b from a |
-| `*` | Asterisk / Multiplication | `a * b === 20` | Multiplies values |
-| `/` | Slash / Division | `a / b === 2` | Divides a by b |
-| `%` | Modulo / Remainder | `a % 2 === 0` | Returns remainder (checks even number) |
+| `+` | Plus / Addition | `a + b` | Adds two values |
+| `-` | Minus / Subtraction | `a - b` | Subtracts b from a |
+| `*` | Asterisk / Multiplication | `a * b` | Multiplies values |
+| `/` | Slash / Division | `a / b` | Divides a by b |
+| `%` | Modulo / Remainder | `a % 2` | Returns remainder |
 | `++` | Increment | `i++` | Increases i by 1 |
 | `--` | Decrement | `i--` | Decreases i by 1 |
 
@@ -23,6 +23,11 @@ A comprehensive guide to common operators used in programming languages like Jav
 | Operator | Name | Example | Description |
 |----------|------|---------|-------------|
 | `=` | Assignment | `x = 5` | Assigns value to variable |
+| `+=` | Add & Assign | `x += 2` | x = x + 2 |
+| `-=` | Subtract & Assign | `x -= 2` | x = x - 2 |
+| `*=` | Multiply & Assign | `x *= 2` | x = x * 2 |
+| `/=` | Divide & Assign | `x /= 2` | x = x / 2 |
+| `%=` | Modulo & Assign | `x %= 2` | x = x % 2 |
 
 ---
 
@@ -70,7 +75,7 @@ A comprehensive guide to common operators used in programming languages like Jav
 |----------|------|---------|-------------|
 | `()` | Parentheses | `func()`, `(a + b)` | Function call, grouping |
 | `[]` | Square Brackets | `arr[0]` | Array index access |
-| `{}` | Curly Braces | `if (true) { code }` | Block scope |
+| `{}` | Curly Braces | `if (true) {}` | Block scope |
 
 ---
 
@@ -91,6 +96,8 @@ A comprehensive guide to common operators used in programming languages like Jav
 | `\|` | Pipe / Bitwise OR | `a \| b` | Bitwise OR operation |
 | `^` | Caret / Bitwise XOR | `a ^ b` | Bitwise XOR operation |
 | `~` | Bitwise NOT | `~a` | Flips all bits |
+| `<<` | Left Shift | `a << 1` | Shift left |
+| `>>` | Right Shift | `a >> 1` | Shift right |
 
 ---
 
@@ -102,9 +109,9 @@ A comprehensive guide to common operators used in programming languages like Jav
 | `"` | Double Quote | `"Hello World"` | String delimiter |
 | `'` | Single Quote | `'Hello'` | String delimiter |
 | `` ` `` | Backtick | `` `Hello ${name}` `` | Template literal (JS) |
+| `$` | Dollar Sign | `${price}` | Template literal variable |
 | `#` | Hash / Pound | `#include` | Preprocessor (C/C++) |
 | `@` | At Sign / Decorator | `@Component()` | Decorator (TypeScript) |
-| `$` | Dollar Sign | `${price}` | Template literal variable |
 
 ---
 
@@ -127,10 +134,10 @@ A comprehensive guide to common operators used in programming languages like Jav
 
 ## 📚 Usage Tips
 
-- Use **strict equality** (`===`) in JavaScript to avoid type coercion bugs
-- **Increment/decrement** operators can be prefix (`++i`) or postfix (`i++`)
-- **Ternary operator** is great for short conditional assignments
-- **Bitwise operators** are useful for low-level programming and optimization
+- Use **strict equality** (`===`) in JavaScript to avoid type coercion bugs  
+- **Increment/decrement** operators can be prefix (`++i`) or postfix (`i++`)  
+- **Ternary operator** is great for short conditional assignments  
+- **Bitwise operators** are useful for low-level programming and optimization  
 
 ---
 
