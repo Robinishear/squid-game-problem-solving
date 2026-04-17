@@ -132,12 +132,48 @@ A comprehensive guide to common operators used in programming languages like Jav
 
 ---
 
+## 🧪 Type Operators
+
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `typeof` | Type Check | `typeof "hello"` | Returns data type |
+| `instanceof` | Instance Check | `arr instanceof Array` | Checks object type |
+
+---
+
+## 🔄 Spread & Rest Operators
+
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `...` | Spread | `[...arr]` | Expands array/object |
+| `...` | Rest | `function(...args)` | Collects arguments |
+
+---
+
+## ❓ Modern JavaScript Operators
+
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `??` | Nullish Coalescing | `x ?? "default"` | Null/undefined fallback |
+| `?.` | Optional Chaining | `user?.name` | Safe property access |
+
+---
+
+## ⛔ Special Operators
+
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `delete` | Delete | `delete obj.name` | Removes property |
+
+---
+
 ## 📚 Usage Tips
 
 - Use **strict equality** (`===`) in JavaScript to avoid type coercion bugs  
 - **Increment/decrement** operators can be prefix (`++i`) or postfix (`i++`)  
 - **Ternary operator** is great for short conditional assignments  
-- **Bitwise operators** are useful for low-level programming and optimization  
+- **Optional chaining (`?.`)** prevents runtime errors  
+- **Nullish (`??`)** is safer than `||` for default values  
 
 ---
 
