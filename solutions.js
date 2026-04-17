@@ -1,3 +1,4 @@
+//* solutions 
 function   reverseString(hallo){
 let result = ""
 
@@ -7,3 +8,5 @@ result = result + hallo[i]
     return result
 
 }
+console.log(reverseString("hallo"))
+
