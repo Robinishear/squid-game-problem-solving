@@ -1,3 +1,17 @@
+
+//  Problem 1  - Reverse String
+//  Problem 2  - FizzBuzz
+//  Problem 3  - Find Largest
+//  Problem 4  - Palindrome
+//  Problem 5  - Sum of Array
+//  Problem 6  - Count Vowels
+//  Problem 8  - Even or Odd List
+//  Problem 10 - Find Minimum
+//  Problem 11 - Multiplication Table
+//  Problem 14 - Celsius to Fahrenheit
+
+
+
 //* solutions Problem 1 — Reverse a String
 // function   reverseString(hallo){
 // let result = ""
@@ -67,8 +81,70 @@
 // console.log(sumArray([1, 2, 3, 4])); 
 
 //* solutions Problem video code explain >= 6,8,10,11,14; 
-//* 6  → Count Vowels
-//* 8  → Even or Odd List
-//* 10 → Find Minimum
-//* 11 → Multiplication Table
-//* 14 → Celsius to Fahrenheit
+
+//* solutions Problem 6 — Count Vowels done 
+//  function countVowels(s) {
+//    let count = 0;
+
+//     for (let i = 0; i < s.length; i++ ) {
+//         if ( "aeiou". includes(s[i]. toLowerCase())){
+//             count++
+//         }
+//     }
+//     return count;
+//  }
+// console.log(countVowels("hallo "))
+
+
+//* solutions Problem 8 — Even or Odd List done
+//   function evenOrOddList(nums) {
+//     let result = [];
+
+//     for (let i =  0; i < nums.length; i++) {
+//         if(nums[i] % 2 === 0) {
+//         result.push( nums[i])
+//         }
+//     }
+// return result;
+
+//   }
+
+// console.log(evenOrOddList([1,2,3,4,5,6,]))
+
+
+
+//* solutions Problem 10 — Find the Minimum in an Array done
+//  function fidMin(nums){
+//     let min =  nums[0];
+
+//     for (let i = 1; i < nums.length; i++) {
+//  if (nums[i] < min) {
+//     min = nums[i];
+//  }
+//     }
+//     return min;
+//  }
+// console.log(fidMin([3,7,1,9]))
+
+
+//* solutions Problem 11 — Multiplication Table done 
+//   function multiplication(n){
+//     let result = [];
+
+//     for (let i = 1; i <= 10; i++) {
+//         result.push(`${n} * ${i} = ${n * i }`);
+//     }
+//     return result;
+//   }
+//   console.log(multiplication(5))
+
+
+
+//* solutions Problem 14 —  Convert Celsius to Fahrenheit done 
+function fahrenheit(celsius){
+ let fahrenheit =  (celsius * 9/5)+ 32;
+ return fahrenheit;
+}
+console.log(fahrenheit(25))
+
+
